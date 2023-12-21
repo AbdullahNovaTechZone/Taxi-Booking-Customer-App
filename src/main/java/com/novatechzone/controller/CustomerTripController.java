@@ -50,7 +50,7 @@ public class CustomerTripController {
         }
     }
 
-    @GetMapping("/trip_data/customer_trip_id")
+    @GetMapping("/trip_data/{trip_id}/{app_id}")
     public ResponseEntity<?> getTripDataCustomerById(@PathVariable("app_id") String appId, @PathVariable("trip_id") int tripId, @RequestBody VerificationCodeDTO verificationCodeDTO) {
         if (appId.equals("novatechzone_customer_app")) {
             return customerTripService.getTripDataCustomerById(tripId, verificationCodeDTO);
