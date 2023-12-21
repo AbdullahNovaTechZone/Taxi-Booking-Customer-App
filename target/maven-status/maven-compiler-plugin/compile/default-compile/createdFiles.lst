@@ -33,6 +33,7 @@ com\novatechzone\service\serviceImpl\CustomerNotificationServiceImpl.class
 com\novatechzone\service\CustomerTripService.class
 com\novatechzone\dto\UpdateProfileImageDTO.class
 com\novatechzone\controller\CustomerController.class
+com\novatechzone\controller\IndexController.class
 com\novatechzone\dto\CustomerAuthRequestDTO.class
 com\novatechzone\dto\RateRiderDTO.class
 com\novatechzone\service\MessageService.class
